@@ -1,0 +1,83 @@
+
+========================================================================
+                  STUDENT PERFORMANCE ANALYTICS SYSTEM                  
+========================================================================
+Total student records: 22
+
+STUDENT-WISE RESULTS
+Student_ID    Name Department  Total_Marks  Average_Marks Grade Result  Attendance_Percent
+      S001   Aarav        ISE        337.0          84.25     A   Pass                  95
+      S002    Diya        ISE        302.0          75.50     B   Pass                  92
+      S003   Rohan        CSE        361.0          90.25    A+   Pass                  98
+      S004  Ananya        ECE        279.0          69.75     C   Pass                  85
+      S005   Kiran        ISE        217.0          54.25     D   Pass                  78
+      S006   Meera        CSE        355.0          88.75     A   Pass                  96
+      S007   Arjun        EEE        181.0          45.25     F   Pass                  69
+      S008   Sneha        ISE        379.0          94.75    A+   Pass                  99
+      S009  Vikram         ME        245.0          61.25     C   Pass                  82
+      S010   Pooja        CSE        287.0          71.75     B   Pass                  88
+      S011   Rahul        ISE        156.0          39.00     F   Fail                  60
+      S012  Ishita        ECE        331.0          82.75     A   Pass                  94
+      S013   Manoj        EEE        251.0          62.75     C   Pass                  80
+      S014   Kavya        CSE        356.0          89.00     A   Pass                  97
+      S015  Nikhil        ISE        213.0          53.25     D   Pass                  75
+      S016    Sana         ME        320.0          80.00     A   Pass                  91
+      S017  Aditya        ECE        168.0          42.00     F   Pass                  70
+      S018    Neha        ISE        349.0          87.25     A   Pass                  95
+      S019  Pranav        CSE        249.0          62.25     C   Pass                  84
+      S020   Aditi        EEE        384.0          96.00    A+   Pass                  99
+      S021  Farhan        ISE        142.0          35.50     F   Fail                  55
+      S022 Lakshmi        CSE        306.0          76.50     B   Pass                  90
+
+========================================================================
+                         OVERALL CLASS SUMMARY                          
+========================================================================
+Students                 : 22
+Passed                   : 20
+Failed                   : 2
+Pass Percentage          : 90.91
+Class Average            : 70.09
+Highest Average          : 96.0
+Lowest Average           : 35.5
+
+========================================================================
+                        SUBJECT-WISE PERFORMANCE                        
+========================================================================
+    Subject  Average  Highest  Lowest
+     Python    68.23       98      28
+Mathematics    69.45       96      33
+ Statistics    70.55       97      38
+  AI_Basics    72.14       97      39
+
+========================================================================
+                       TOP 5 PERFORMING STUDENTS                        
+========================================================================
+Student_ID  Name  Average_Marks Grade
+      S020 Aditi          96.00    A+
+      S008 Sneha          94.75    A+
+      S003 Rohan          90.25    A+
+      S014 Kavya          89.00     A
+      S006 Meera          88.75     A
+
+========================================================================
+             STUDENTS WHO MAY BENEFIT FROM ACADEMIC SUPPORT             
+========================================================================
+Student_ID   Name  Average_Marks Result  Attendance_Percent
+      S007  Arjun          45.25   Pass                  69
+      S011  Rahul          39.00   Fail                  60
+      S017 Aditya          42.00   Pass                  70
+      S021 Farhan          35.50   Fail                  55
+
+Analysis files saved in: /mnt/data/student_performance_analytics/output
+
+ERRORS:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
